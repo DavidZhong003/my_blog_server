@@ -6,7 +6,7 @@ import 'package:shelf/shelf.dart' as shelf;
 import 'package:shelf/shelf_io.dart' as io;
 import 'arcticle_list.dart';
 import 'db/db_helper.dart' as db;
-
+import 'db/json_help.dart';
 // For Google Cloud Run, set _hostname to '0.0.0.0'.
 const _hostname = 'localhost';
 
@@ -45,7 +45,7 @@ void main(List<String> args) async {
     if (handler != null) {
       return handler(request);
     }
-    return shelf.Response.notFound('$path not found');
+    return errorResponse(404, '$path not found');
   });
 
   var server = await io.serve(handler, _hostname, port);
