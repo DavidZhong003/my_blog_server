@@ -1,0 +1,16 @@
+name: blog_server
+description: A web server built using the shelf package.
+# version: 1.0.0
+# homepage: https://www.example.com
+# author: zhongshan <zhongshan2010@vip.qq.com>
+
+environment:
+  sdk: '>=2.4.0 <3.0.0'
+
+dependencies:
+  args: ^1.5.0
+  shelf: ^0.7.2
+  mysql1: ^0.17.1
+
+dev_dependencies:
+  pedantic: ^1.7.0
