@@ -11,5 +11,5 @@ Future<Response> handlerArcticleListRequest(Request request) async {
   if (result == null) {
     return Response.ok('');
   }
-  return Response.ok(encode(result));
+  return jsonResponse(result);
 }
