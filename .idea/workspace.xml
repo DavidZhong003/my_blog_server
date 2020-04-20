@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd40f885-4fe2-47a3-a4f2-1b2202f22135" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/arcticle_list.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bin/arcticle_list.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/db/json_help.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bin/db/json_help.dart" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,25 +26,29 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="dart" value="45" />
+          <entry key="dart" value="46" />
+          <entry key="gitignore" value="1" />
           <entry key="yaml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Dart" value="45" />
+          <entry key="Dart" value="46" />
+          <entry key="Git file" value="1" />
           <entry key="YAML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dart" value="2323" />
+          <entry key="dart" value="2421" />
+          <entry key="txt" value="16" />
           <entry key="yaml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Dart" value="2323" />
+          <entry key="Dart" value="2421" />
+          <entry key="PLAIN_TEXT" value="16" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
@@ -85,6 +89,18 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/db/json_help.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -105,10 +121,11 @@
         <option value="$PROJECT_DIR$/bin/db/sql_cmd_helper.dart" />
         <option value="$PROJECT_DIR$/bin/db/data_manager.dart" />
         <option value="$PROJECT_DIR$/bin/home.dart" />
-        <option value="$PROJECT_DIR$/bin/db/json_help.dart" />
         <option value="$PROJECT_DIR$/bin/db/db_helper.dart" />
-        <option value="$PROJECT_DIR$/bin/arcticle_list.dart" />
         <option value="$PROJECT_DIR$/bin/server.dart" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/bin/db/json_help.dart" />
+        <option value="$PROJECT_DIR$/bin/arcticle_list.dart" />
       </list>
     </option>
   </component>
@@ -159,7 +176,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587369315433" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587369543383" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -201,18 +218,26 @@
       <updated>1587093430396</updated>
       <workItem from="1587093434931" duration="2912000" />
       <workItem from="1587115200073" duration="7684000" />
-      <workItem from="1587201194390" duration="26073000" />
+      <workItem from="1587201194390" duration="26438000" />
     </task>
+    <task id="LOCAL-00001" summary="添加json 响应">
+      <created>1587369391370</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587369391371</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36669000" />
+    <option name="totallyTimeSpent" value="37034000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1643" y="128" width="1184" height="773" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994709" visible="true" weight="0.30735552" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994709" visible="true" weight="0.30735552" />
       <window_info id="Structure" order="1" sideWeight="0.5005291" side_tool="true" weight="0.33547926" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -221,7 +246,7 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40729484" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40729484" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42350557" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -251,6 +276,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加json 响应" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加json 响应" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -342,16 +371,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/db/json_help.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pubspec.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -401,6 +420,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-233">
           <caret line="25" column="21" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/db/json_help.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
