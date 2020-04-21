@@ -3,9 +3,9 @@ import 'dart:io';
 import 'package:args/args.dart';
 import 'package:shelf/shelf.dart' as shelf;
 import 'package:shelf/shelf_io.dart' as io;
-import 'arcticle_list.dart';
-import 'db/db_helper.dart' as db;
-import 'db/json_help.dart';
+import 'servers/servers.dart';
+import 'help/db_helper.dart' as db;
+import 'help/json_help.dart';
 // For Google Cloud Run, set _hostname to '0.0.0.0'.
 const _hostname = 'localhost';
 
@@ -52,5 +52,6 @@ void main(List<String> args) async {
 }
 
 Map<String, shelf.Handler> _handlerMap = {
-  'arcticleList': handlerArcticleListRequest
+  'arcticleList': handlerArcticleListRequest,
+  'acrticleDetails':handlerArcticleDetailsRequest,
 };
